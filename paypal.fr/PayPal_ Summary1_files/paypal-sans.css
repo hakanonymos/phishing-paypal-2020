@@ -1,0 +1,78 @@
+@font-face {
+	font-family: PayPal-Sans;
+	font-style: normal;
+	font-weight: 400;
+
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Regular.eot'); /* IE9 Compat Modes */
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Regular.woff2') format('woff2'), /* Moderner Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Regular.woff') format('woff'), /* Modern Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Regular.svg#69ac2c9fc1e0803e59e06e93859bed03') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: PayPal-Sans;
+	font-style: normal;
+	font-weight: 500;
+
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.eot'); /* IE9 Compat Modes */
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.woff2') format('woff2'), /* Moderner Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.woff') format('woff'), /* Modern Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.svg#69ac2c9fc1e0803e59e06e93859bed03') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: PayPal-Sans;
+	font-style: normal;
+	font-weight: 600;
+
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.eot'); /* IE9 Compat Modes */
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.woff2') format('woff2'), /* Moderner Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.woff') format('woff'), /* Modern Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.svg#69ac2c9fc1e0803e59e06e93859bed03') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: PayPal-Sans;
+	font-style: normal;
+	font-weight: 700;
+
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.eot'); /* IE9 Compat Modes */
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.woff2') format('woff2'), /* Moderner Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.woff') format('woff'), /* Modern Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Medium.svg#69ac2c9fc1e0803e59e06e93859bed03') format('svg'); /* Legacy iOS */
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+@font-face {
+	font-family: PayPal-Sans-Big;
+	font-style: normal;
+	font-weight: 200;
+
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Thin.eot'); /* IE9 Compat Modes */
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Thin.woff2') format('woff2'), /* Moderner Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Thin.woff') format('woff'), /* Modern Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Thin.svg#69ac2c9fc1e0803e59e06e93859bed03') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: PayPal-Sans-Big;
+	font-style: normal;
+	font-weight: 300;
+
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Light.eot'); /* IE9 Compat Modes */
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Light.woff2') format('woff2'), /* Moderner Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Light.woff') format('woff'), /* Modern Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Light.svg#69ac2c9fc1e0803e59e06e93859bed03') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: PayPal-Sans-Big;
+	font-style: normal;
+	font-weight: 400;
+
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Regular.eot'); /* IE9 Compat Modes */
+	src: url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Regular.woff2') format('woff2'), /* Moderner Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Regular.woff') format('woff'), /* Modern Browsers */
+		 url('https://www.paypalobjects.com/ui-web/paypal-sans-big/1-0-0/PayPalSansBig-Regular.svg#69ac2c9fc1e0803e59e06e93859bed03') format('svg'); /* Legacy iOS */
+}

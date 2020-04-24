@@ -1,0 +1,916 @@
+#P6BWWR9LQB-firefly {
+  font-size: 13px;
+  line-height: 16px;
+  font-family: Helvetica;
+  z-index: 2147483643;
+  position: fixed;
+  top: 50%;
+  left: -2px;
+  width: 38px;
+}
+#P6BWWR9LQB-firefly:hover {
+  font-size: 13px;
+  line-height: 16px;
+  font-family: Helvetica;
+  /*text-align: center;*/
+  z-index: 2147483643;
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  width: 38px;
+}
+#P6BWWR9LQB-img {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.P6BWWR9LQB-privacyMessage {
+  background-color: #32322d;
+  padding-left: 3px;
+  border-radius: 5px;
+  font-size: 12px;
+  /*text-align: center;*/
+  line-height: 30px;
+  border-bottom-left-radius: 0px;
+  border-color: white;
+  font-family: Helvetica;
+  color: #fb9f1f;
+  height: 30px;
+  /*width:300px;*/
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#P6BWWR9LQB-privacyMessage-VideoDesk {
+  background-color: transparent !important;
+  line-height: normal !important;
+  height: auto !important;
+  top: 0;
+}
+.P6BWWR9LQB-privacyMessageText {
+  display: none;
+  font-family: Helvetica;
+  color: #fff;
+  padding-right: 10px;
+}
+#P6BWWR9LQB-privacyMessageText-VideoDesk {
+  /*display: none;  */
+  font-family: Helvetica;
+  color: #000;
+  padding: 10px;
+  width: 218px;
+  /*height: 56px;*/
+  background-color: #fff;
+  border: solid 1px #707070;
+  font: 13px "Segoe UI", sans-serif;
+  line-height: 19px;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  top: 2px;
+  box-shadow: 0 0 10px 1px #aaa;
+}
+.P6BWWR9LQB-blockMessage {
+  background-color: #32322d;
+  padding-left: 3px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  border-bottom-left-radius: 0px;
+  border-color: white;
+  font-family: Helvetica;
+  color: #fb9f1f;
+  height: 30px;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.P6BWWR9LQB-privacyMessage-image {
+  float: right;
+  padding-left: 3px;
+  vertical-align: top;
+  height: 15px;
+  width: 15px;
+  z-index: 99;
+  border: none;
+  margin-right: -5px;
+  margin-top: -5px;
+  visibility: hidden;
+}
+#P6BWWR9LQB-privacyMessage-image-VidoeDesk {
+  padding-left: 3px;
+  height: auto;
+  width: auto;
+  margin-right: -5px;
+  margin-top: -5px;
+  visibility: hidden;
+}
+.P6BWWR9LQB-privacyMessage-lock {
+  vertical-align: middle;
+  padding-right: 6px;
+  padding-bottom: 1px;
+  height: 20px;
+}
+#P6BWWR9LQB-privacyMessage-lock-VideoDesk {
+  vertical-align: middle;
+  padding-right: 6px;
+  padding-bottom: 1px;
+  height: auto;
+}
+#P6BWWR9LQB-firefly-connected {
+  background-color: blue;
+}
+#P6BWWR9LQB-firefly-a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#P6BWWR9LQB-firefly-a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#P6BWWR9LQB-highlight {
+  position: absolute;
+  /* http://stackoverflow.com/questions/806000/css-semi-transparent-background-but-not-text */
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: #f8f5af transparent;
+  /* RGBa with 0.6 opacity */
+  background: rgba(248, 245, 175, 0.6);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99f8f5af, endColorstr=#99f8f5af)";
+  border: 3px solid #fb8b1c;
+  pointer-events: none;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  z-index: 2147483645;
+  /* changed so that highlights appear above the bar */
+}
+.P6BWWR9LQB-grant-deny-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #333;
+  background-color: #fff;
+  border: solid 1px transparent;
+  border-color: #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.P6BWWR9LQB-grant-deny-button:hover {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+.P6BWWR9LQB-grant-deny-button:active {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+  outline: 0;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.P6BWWR9LQB-background-none {
+  background: none !important;
+}
+#P6BWWR9LQB-outerModal {
+  width: 100%;
+  padding: 0px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  z-index: 2147483646;
+}
+#P6BWWR9LQB-modal-frame {
+  width: 570px;
+  height: 100%;
+  border: none;
+  position: fixed;
+  top: 15%;
+  z-index: 2147483646;
+  overflow: hidden;
+  background-color: transparent !important;
+  border: 1px solid transparent;
+  display: none;
+}
+#P6BWWR9LQB-close {
+  position: relative;
+  left: 15px;
+}
+#P6BWWR9LQB-close img {
+  border: none;
+}
+#P6BWWR9LQB-little-logo {
+  float: right;
+  margin-right: 30px;
+}
+#P6BWWR9LQB-logo {
+  position: relative;
+  border-style: none;
+}
+#P6BWWR9LQB-logo img {
+  border: none;
+}
+#P6BWWR9LQB-powered-by {
+  color: #fff;
+  font-weight: lighter;
+  position: relative;
+  top: -5px;
+  right: 5px;
+  font-size: 12px;
+  /*text-shadow: #680000 0px -1px 0px;*/
+}
+#P6BWWR9LQB-label {
+  position: relative;
+  top: 8px;
+  left: 30px;
+  text-shadow: #070e41 0px -2px 0px;
+}
+#P6BWWR9LQB-modalTop {
+  overflow: hidden;
+  height: 28px;
+  text-align: left;
+  font: 14px Helvetica;
+  color: #fff;
+}
+.P6BWWR9LQB-centerModal {
+  display: block;
+  text-align: center;
+}
+#P6BWWR9LQB-modal {
+  min-height: 200px;
+  background-color: white;
+  border: solid 1px #cacaca;
+  font: 18px Helvetica;
+  line-height: 30px;
+}
+#P6BWWR9LQB-modal p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font: 18px Helvetica;
+  line-height: 30px;
+  padding: 0px 20px;
+}
+.P6BWWR9LQB-green {
+  font-size: 22px;
+  color: #e88728;
+  /*text-shadow: 0px 0px 1px black;*/
+}
+#P6BWWR9LQB-privacy {
+  font-size: 13px;
+  text-align: center;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  margin-top: -55px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+#P6BWWR9LQB-customer-bar {
+  z-index: 2147483644;
+  float: right;
+  color: white;
+  display: inline-block;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+#P6BWWR9LQB-bar-frame {
+  position: fixed;
+  z-index: 2147483644;
+  right: 0px;
+  top: 0px;
+  color: white;
+  display: inline-block;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  border: 0px;
+  width: 470px;
+  /*width: 589;*/
+  height: 32px;
+  overflow-x: hidden;
+  /*overflow-y: hidden;*/
+}
+.P6BWWR9LQB-customer-bar {
+  padding-top: 7px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: right;
+  height: 17px;
+}
+#P6BWWR9LQB-bar-privacy-note {
+  padding: 6px;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: right;
+}
+#P6BWWR9LQB-client-control {
+  padding: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: right;
+}
+.P6BWWR9LQB-client-control-button {
+  padding: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: right;
+  cursor: pointer;
+}
+.P6BWWR9LQB-client-control-button:hover {
+  background-color: #686868 !important;
+  background-image: linear-gradient(top, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -o-linear-gradient(top, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -moz-linear-gradient(top, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -webkit-linear-gradient(top, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -ms-linear-gradient(top, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -webkit-gradient(linear, right top, right bottom, color-stop(0.14, #252525), color-stop(0.57, #3d3d3d), color-stop(0.79, #424242));
+  border-bottom: 1px solid #4f4e4f;
+  border-right: 1px solid #4f4e4f;
+  border-left: 1px solid #4f4e4f;
+  text-shadow: -1px -1px 0px black;
+}
+.P6BWWR9LQB-client-control-button-selected {
+  background: #686868 !important;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY4Njg2OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzk5OTk5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUzJSIgc3RvcC1jb2xvcj0iI2EwYTBhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhZmFmYWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+) !important;
+  background: -moz-linear-gradient(top, #686868 0%, #999999 50%, #a0a0a0 53%, #afafaf 100%) !important;
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #686868), color-stop(50%, #999999), color-stop(53%, #a0a0a0), color-stop(100%, #afafaf)) !important;
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #686868 0%, #999999 50%, #a0a0a0 53%, #afafaf 100%) !important;
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #686868 0%, #999999 50%, #a0a0a0 53%, #afafaf 100%) !important;
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #686868 0%, #999999 50%, #a0a0a0 53%, #afafaf 100%) !important;
+  /* IE10+ */
+  background: linear-gradient(to bottom, #686868 0%, #999999 50%, #a0a0a0 53%, #afafaf 100%) !important;
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#686868', endColorstr='#afafaf', GradientType=0) !important;
+  /* IE6-8 */
+  border-bottom: 1px solid #4f4e4f;
+  border-right: 1px solid #4f4e4f;
+  border-left: 1px solid #4f4e4f;
+  text-shadow: -1px -1px 0px black;
+}
+#P6BWWR9LQB-bar-in-cobrowsing {
+  padding: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  float: right;
+}
+.P6BWWR9LQB-customer-bar-black {
+  background-color: #252525;
+  background-image: linear-gradient(bottom, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -o-linear-gradient(bottom, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -moz-linear-gradient(bottom, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -webkit-linear-gradient(bottom, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -ms-linear-gradient(bottom, #252525 14%, #3d3d3d 57%, #424242 79%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, #252525), color-stop(0.57, #3d3d3d), color-stop(0.79, #424242));
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid #4f4e4f;
+  text-shadow: -1px -1px 0px black;
+}
+.P6BWWR9LQB-customer-bar-red {
+  border-right: 1px solid #661818;
+  border-left: 1px solid #c72c2c;
+  text-shadow: -1px -1px 0px #661818;
+  height: 18px;
+}
+#P6BWWR9LQB-bar-end {
+  cursor: pointer;
+  /*
+  background-image: linear-gradient(bottom, rgb(112,25,25) 24%, rgb(145,36,36) 54%, rgb(171,37,37) 86%);
+  background-image: -o-linear-gradient(bottom, rgb(112,25,25) 24%, rgb(145,36,36) 54%, rgb(171,37,37) 86%);
+  background-image: -moz-linear-gradient(bottom, rgb(112,25,25) 24%, rgb(145,36,36) 54%, rgb(171,37,37) 86%);
+  background-image: -webkit-linear-gradient(bottom, rgb(112,25,25) 24%, rgb(145,36,36) 54%, rgb(171,37,37) 86%);
+  background-image: -ms-linear-gradient(bottom, rgb(112,25,25) 24%, rgb(145,36,36) 54%, rgb(171,37,37) 86%);
+
+  background-image: -webkit-gradient(
+  	linear,
+  	left bottom,
+  	left top,
+  	color-stop(0.24, rgb(112,25,25)),
+  	color-stop(0.54, rgb(145,36,36)),
+  	color-stop(0.86, rgb(171,37,37))
+  );
+  */
+}
+#P6BWWR9LQB-bar-end:active {
+  border-left: 1px solid #661818;
+  background-image: linear-gradient(bottom, #912424 24%, #701919 54%, #701919 86%);
+  background-image: -o-linear-gradient(bottom, #912424 24%, #701919 54%, #701919 86%);
+  background-image: -moz-linear-gradient(bottom, #912424 24%, #701919 54%, #701919 86%);
+  background-image: -webkit-linear-gradient(bottom, #912424 24%, #701919 54%, #701919 86%);
+  background-image: -ms-linear-gradient(bottom, #912424 24%, #701919 54%, #701919 86%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.24, #912424), color-stop(0.54, #701919), color-stop(0.86, #701919));
+}
+#P6BWWR9LQB-caret-div {
+  border-bottom-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  cursor: pointer;
+}
+#P6BWWR9LQB-caret-div:hover {
+  border-right: 2px solid black;
+  position: relative;
+  left: 1px;
+  box-shadow: -1px 1px 0px #efefef;
+}
+#P6BWWR9LQB-caret-div:active {
+  border-right: 1px solid black;
+  box-shadow: 0px 0px 0px #efefef;
+  left: 0px;
+  background-color: #252525;
+  background-image: linear-gradient(bottom, #424242 14%, #3d3d3d 57%, #252525 79%);
+  background-image: -o-linear-gradient(bottom, #424242 14%, #3d3d3d 57%, #252525 79%);
+  background-image: -moz-linear-gradient(bottom, #424242 14%, #3d3d3d 57%, #252525 79%);
+  background-image: -webkit-linear-gradient(bottom, #424242 14%, #3d3d3d 57%, #252525 79%);
+  background-image: -ms-linear-gradient(bottom, #424242 14%, #3d3d3d 57%, #252525 79%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.14, #424242), color-stop(0.57, #3d3d3d), color-stop(0.79, #252525));
+}
+.P6BWWR9LQB-caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-top: 5px;
+  margin-left: 2px;
+  vertical-align: top;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+}
+.P6BWWR9LQB-right-caret {
+  border-left: 4px solid white;
+}
+.P6BWWR9LQB-left-caret {
+  border-right: 5px solid white;
+}
+.P6BWWR9LQB-top {
+  height: 100px;
+  width: 80px;
+  background: url('./img/arrows.png') -110px 0;
+}
+.P6BWWR9LQB-topRight {
+  height: 90px;
+  width: 90px;
+  background: url('./img/arrows.png') -200px -5px;
+}
+.P6BWWR9LQB-topLeft {
+  height: 90px;
+  width: 90px;
+  background: url('./img/arrows.png') -13px -5px;
+}
+.P6BWWR9LQB-bottom {
+  height: 100px;
+  width: 80px;
+  background: url('./img/arrows.png') -110px -170px;
+}
+.P6BWWR9LQB-bottomRight {
+  height: 90px;
+  width: 90px;
+  background: url('./img/arrows.png') -200px -175px;
+}
+.P6BWWR9LQB-bottomLeft {
+  height: 90px;
+  width: 90px;
+  background: url('./img/arrows.png') -13px -175px;
+}
+.P6BWWR9LQB-left {
+  height: 80px;
+  width: 100px;
+  background: url('./img/arrows.png') -13px -90px;
+}
+.P6BWWR9LQB-right {
+  height: 80px;
+  width: 100px;
+  background: url('./img/arrows.png') -190px -90px;
+}
+#P6BWWR9LQB-info-modal {
+  display: none;
+  float: right;
+  width: 228px;
+}
+#P6BWWR9LQB-info-modal-top {
+  width: 100%;
+  clear: both;
+  height: 16px;
+}
+#P6BWWR9LQB-info-modal-body {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: #474747;
+  border-bottom-left-radius: 3px;
+  -moz-border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -moz-border-bottom-right-radius: 3px;
+  font: 12px HNLight, "Helvetica Neue", Helvetica, sans-serif;
+}
+#P6BWWR9LQB-info-modal-body p {
+  margin: 0px 15px;
+  padding-top: 10px;
+}
+#P6BWWR9LQB-info-modal-body a {
+  color: #61b7fa;
+}
+#P6BWWR9LQB-fade-to-black {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .8;
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+/*CSS for select mirror . Added By : Tarun Gupta*/
+span[id*='firefly_dummy_span_'] {
+  position: relative;
+}
+.firefly-dummy-class {
+  position: absolute;
+  border: 1px solid black;
+  width: 96%;
+  background-color: #fff;
+  margin-top: -2px;
+  left: 0px;
+  box-shadow: 1px 1px 3px #CCC;
+}
+.firefly-dummy-class ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.firefly-dummy-class ul li {
+  padding: 0.5px 5px;
+  font-family: arial;
+  font-size: 12px;
+}
+/* for Firefly Widget*/
+.firefly-widget {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  border: none;
+  min-height: 1px;
+  box-sizing: border-box;
+  float: left;
+  z-index: 2147483644;
+}
+.firefly-widget-col-xs-12 {
+  width: 100%;
+  width: 400px\9;
+}
+@media (min-width: 768px) {
+  .firefly-widget-col-sm-12 {
+    width: 100%;
+  }
+}
+/* ----------- iPad 1 and 2 ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .firefly-widget-col-sm-12 {
+    width: 50%;
+  }
+}
+/* ----------- iPad 3 and 4 ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .firefly-widget-col-sm-12 {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .firefly-widget-col-md-6 {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .firefly-widget-col-lg-3 {
+    width: 22%;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+.crocodoc-viewer {
+  padding: 0;
+  position: relative;
+}
+/* prevent sizing issues from bootstrap (and others) that change global defaults */
+.crocodoc-viewer * {
+  -webkit-box-sizing: content-box !important;
+  -moz-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+}
+.crocodoc-viewer-fullscreen {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.crocodoc-viewport {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  outline: 0 !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.crocodoc-draggable .crocodoc-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}
+.crocodoc-dragging .crocodoc-viewport {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+/* outside wrapper for positioning the transformed inner wrapper properly */
+.crocodoc-doc {
+  overflow: hidden;
+  /* @NOTE: position:relative is necessary for overflow:hidden to work in IE7 */
+  position: relative;
+  text-align: center;
+  font-size: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.crocodoc-window-as-viewport .crocodoc-viewport {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  overflow: visible;
+}
+.crocodoc-window-as-viewport .crocodoc-doc {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+/* individual pages */
+.crocodoc-page {
+  display: inline-block;
+  /* IE7 hack to force inline behavior on divs */
+  *display: inline;
+  *zoom: 1;
+  /* End hack */
+  /* IE7 inherits text-align: center, which causes the page-content to be shifted */
+  text-align: left;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.crocodoc-page-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.crocodoc-page-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.crocodoc-page-visible,
+.crocodoc-current-page {
+  visibility: visible !important;
+}
+.crocodoc-page-svg object,
+.crocodoc-page-svg iframe,
+.crocodoc-page-svg img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.crocodoc-page-autoscale {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.crocodoc-page-autoscale > div {
+  display: block;
+  position: absolute;
+}
+/* @NOTE: this is a fix for the white "border" issue */
+.crocodoc-page-svg {
+  position: absolute;
+  overflow: hidden;
+  top: -1px;
+  left: -1px;
+  bottom: -1px;
+  right: -1px;
+  width: auto;
+  height: auto;
+}
+.crocodoc-page-links {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.crocodoc-page-link {
+  position: absolute;
+  display: block;
+}
+/* Fix for IE ctrl+click behavior */
+.crocodoc-page-link span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* IE <= 9 requires a background image for an empty element to actually receive click events */
+  background: url(data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==) 0 0 no-repeat;
+}
+.crocodoc-links-disabled .crocodoc-page-links {
+  display: none;
+}
+.crocodoc-links-disabled .crocodoc-page-link {
+  background: transparent;
+}
+.crocodoc-page-text {
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0.5;
+  overflow: hidden;
+}
+/* don't hide text if it's selected or visible */
+.crocodoc-page-visible .crocodoc-page-text,
+.crocodoc-page-selected .crocodoc-page-text {
+  display: block !important;
+}
+/* NEVER display text if it's disabled; this should be highest priority */
+.crocodoc-draggable .crocodoc-page-text,
+.crocodoc-text-disabled .crocodoc-page-text {
+  display: none !important;
+}
+.crocodoc-page-error .crocodoc-page-text,
+.crocodoc-page-loading .crocodoc-page-text,
+.crocodoc-page-error .crocodoc-page-svg,
+.crocodoc-page-loading .crocodoc-page-svg,
+.crocodoc-page-error .crocodoc-page-links,
+.crocodoc-page-loading .crocodoc-page-links {
+  display: none !important;
+}
+.crocodoc-subpx-fix {
+  /*
+        BUG-204982 commenting below zoom code because it is breaking highlight.
+        getBoundingClientRect DOM API returns incorrect position with zoom.
+    */
+  /*
+    zoom: 10;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    width: 1000%;
+    height: 1000%;
+    */
+  position: relative !important;
+  width: 100%;
+  height: 100%;
+}
+/* Layout-specific styles -------------------------------- */
+.crocodoc-layout-horizontal .crocodoc-doc {
+  text-align: left;
+  white-space: nowrap;
+}
+.crocodoc-layout-vertical-single-column .crocodoc-page {
+  display: block;
+  margin: 0 auto;
+}
+.crocodoc-layout-presentation-two-page .crocodoc-page,
+.crocodoc-layout-presentation .crocodoc-page {
+  position: absolute;
+  visibility: hidden;
+  display: block;
+}
+.crocodoc-layout-presentation-two-page .crocodoc-doc,
+.crocodoc-layout-presentation .crocodoc-doc {
+  overflow: visible;
+  /* @NOTE: this is for IE 7; text-align is incorrectly honored even when pages are position:absolute/display:block */
+  text-align: left;
+}
+.crocodoc-layout-presentation-two-page .crocodoc-page:nth-child(odd) {
+  padding-right: 0 !important;
+}
+.crocodoc-layout-presentation-two-page .crocodoc-page:nth-child(even) {
+  padding-left: 0 !important;
+}
+.crocodoc-layout-presentation-two-page .crocodoc-page-visible,
+.crocodoc-layout-presentation .crocodoc-page-visible {
+  z-index: 1;
+}
+/* only possibly show scrollbars when the presentation is intentionally scrollable (e.g., doesn't fit in viewport) */
+.crocodoc-layout-presentation .crocodoc-viewport,
+.crocodoc-layout-presentation-two-page .crocodoc-viewport {
+  overflow: hidden;
+}
+.crocodoc-layout-presentation.crocodoc-scrollable .crocodoc-viewport,
+.crocodoc-layout-presentation-two-page.crocodoc-scrollable .crocodoc-viewport {
+  overflow: auto;
+}
+/** Version-specific changes ----------------------------- */
+/* all conversions before v1.0.0 require text to be transparent */
+.crocodoc-viewer[data-svg-version^="0"] .crocodoc-page-text .tx {
+  color: transparent !important;
+}
+#firefly-doc-container {
+  background-color: gray;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  z-index: 2147483643;
+}
+a.firefly-docviwer-close-button {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  z-index: 2;
+  border-style: solid;
+  padding: 5px 10px;
+  color: #e90e00;
+  text-decoration: none;
+  border-color: #e90e00;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: bold;
+  line-height: 15px;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  font-size: 13px;
+}
+a.firefly-docviwer-close-button img {
+  height: 15px;
+  width: 15px;
+  border-style: solid;
+  border-radius: 12px;
+  border-color: #FFFFFF;
+  float: left;
+  margin-left: -2px;
+  margin-right: 2px;
+  border-width: 0px;
+}
+a.firefly-docviwer-close-button:hover img {
+  opacity: 0.6;
+}
+.cdoc-viewer {
+  width: 80%;
+  left: 10%;
+  height: 100%;
+}
+.doc_icons_frame {
+  height: 54px !important;
+  z-index: 2147483642;
+}
+#P6BWWR9LQB-modalTop {
+  background-image: url('./img/blue-bg.png');
+}
+
+
+/*© 2015 Pegasystems Inc.*/
