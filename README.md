@@ -3,7 +3,11 @@ phishing paypal ,French, English
 
 à vos risque
 
-open config.php
+open 
+
+ admin
+
+config.php
 
 usernam = admin
 
