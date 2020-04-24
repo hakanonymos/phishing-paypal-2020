@@ -1,4 +1,0 @@
-|================ login info ===============|
-|Email                      :  coucou123@gmail.com
-|Password                   :  hacked1234
-|IP Victime                 : http://www.geoiptool.com/?IP=127.0.0.1  ====
