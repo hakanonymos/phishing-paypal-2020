@@ -8,3 +8,7 @@ open config.php
 usernam = admin
 
 password = admin
+
+# Demo youtube video
+
+https://www.youtube.com/watch?v=2pW-e144GP4
