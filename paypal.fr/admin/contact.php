@@ -99,7 +99,7 @@ font-size: 16px;"><a href="login.php" class="btn btn-danger square-btn-adjust">L
 <br/>
      <br/>Contact Admin : <br/><br/>
      hakanonymos@hotmail.com  <br/><br/>
- whatsap number : +1 315 636 65 96 (French/English)<br/><br/>
+ whatsap number :  +1 336 415 34 87 (French/English)<br/><br/>
 
      https://instagram.com/hakanonymos ";   
 ?>
